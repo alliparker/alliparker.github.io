@@ -1,4 +1,7 @@
 body { 
 	background: url(../images/background.jpg);
-background-size: cover;
+	background-size: cover;
+	color: white;
+	font-family: Arial;
+
 }
