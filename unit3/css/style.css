@@ -1,32 +1,36 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
 body { 
 	background: url(../images/background.jpg);
 	background-size: cover;
 }
 
-div {
-
-}
+section {
+		margin: 200px 0 0 150px;
+		width: 50%;
+		line-height: 75px;
+			
+	}
 
 h1 {
-	color: white;
-	font-family: Arial;
-	font-size: "16px";
-	padding-left: 50px;
 	font-weight: normal;
+	color: #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+	padding:0 0 0 55px ;
 }
-	
 
+
+a {padding-left: 50px;
+	padding-top: 200px;
 }
 
 hr {
-	width: 50%;
-	color: #FAAFBA;
+	border-color: #b48484;
+	width: 5%;
+	margin-left: 50px;
 }
 
-.logo {
-		padding-top: 200px;
-		margin-right: 15px;
-}
-
-a {padding-left: 50px;
-}
+div {
+	background: url(../images/stripes.png);
+		)
+	
