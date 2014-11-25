@@ -1,8 +1,8 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body { 
-	background: url(../images/background.jpg) no-repeat #525a6a;
-	background-size: cover;
+	background: url(../images/stripes.png) repeat-x, url(../images/background.jpg) no-repeat #525a6a;
+	background-size: auto, cover;
 	color: #ffffff;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size:20px;
@@ -15,5 +15,7 @@ section {
 
 hr {
 	border-color: #b48484;
+	margin: 10px 0 20px 0;
 	width: 5%;
 }
+p { margin-bottom:20px; }
