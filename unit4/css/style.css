@@ -10,7 +10,7 @@ section {
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 24px;
 	font-weight: bold;
-	margin: 175px 0 175px 0;
+	margin: 25px 0 175px 0;
 
 }
 
@@ -27,3 +27,24 @@ p {font-family: 'Garamond', serif;
 	margin: 25px 0 0 0;
 	line-height: 150%;
 }
+
+.nav ul {list-style-type: none;
+	overflow: hidden;
+	padding: 15px 0 15px 0;
+}
+
+.nav li {display: inline-block;
+		width: 200px;
+}
+
+.nav a:link {color: #000000;
+			text-decoration: none;
+			font-family: 'Garamond', serif;
+			font-size: 24px;
+}
+
+.nav a:hover {background-color: #CCCCCC;}
+
+
+
+
