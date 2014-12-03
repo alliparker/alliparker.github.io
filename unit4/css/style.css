@@ -32,7 +32,9 @@ p {
 	text-align:justify;
 	width:480px;
 }
-
+header img {
+	margin:1.62em;
+}
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
@@ -45,9 +47,11 @@ nav li {
 }
 
 nav a {
+	color:#222;
 	text-decoration: none;
 	font-size: 1.62em;
+	padding:5px;
 	text-transform:uppercase;
 }
 
-nav a:hover {background-color: #ccc;}
+nav a:hover {color: #ccc;}
