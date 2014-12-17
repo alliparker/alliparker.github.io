@@ -6,7 +6,11 @@ body {
 	font-size: 16px;
 	background-color: #f3f3f3;
 }
-
+aside {
+	float:right;
+	padding:20px;
+	width: 40%;
+}
 .linepattern {
 		background: url(../images/linepattern.png) repeat-x;
 		height: 1em;
@@ -80,12 +84,6 @@ h3 {
 	width: 60%;
 	font-family: 'PT Sans' sans-serif;
 	padding: 5px 5px 0 15px;
-}
-
-.sidebar {
-	float:right;
-	padding:20px;
-	width: 40%;
 }
 
 .sidebarphoto {
