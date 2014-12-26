@@ -4,8 +4,9 @@
 body {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 16px;
-	background-color: #f3f3f3;
+	background-color: #f5f5f5;
 }
+
 aside {
 	float:right;
 	padding:20px;
@@ -16,15 +17,11 @@ aside {
 		height: 1em;
 }
 
-nav ul {
-	margin: 20px 0 10px 0;
-}
-
 nav li {
-	font-family: 'PT Serif' serif;
+	font-family: 'Julius Sans One' sans-serif;
 	display: inline;
 	margin: 0 20px;
-	font-size: 1.25em;
+	font-size: 1.10em;
 }
 
 nav a {
@@ -37,6 +34,13 @@ nav li a:hover {
 	-moz-box-shadow: 0 .25em #5DA0AD;
 	-webkit-box-shadow: 0 .25em #5DA0AD;
 	box-shadow: 0 .25em #5DA0AD;
+
+}
+
+img {
+	margin: 0 auto;
+	display: block;
+	margin-top: 1.3em;
 }
 
 /* Gradient color1 - color2 - color1 */
@@ -50,16 +54,13 @@ nav li a:hover {
 	background-image: -o-linear-gradient(left, #DDBCC1, #AB5765, #DDBCC1);
 }
 
-nav img {
-	margin: 25px 0 0 25px;
-}
-
 h1, h2 {
 	padding: 5px 5px 0 15px;
 	color: #348899;
 	font-weight:;
 	line-height: 150%;
 }
+
 h1 { font-size: 1.5em; }
 h2 { font-size: 1.25em; }
 
@@ -104,6 +105,23 @@ h3 {
 	clear: both;
 	margin: 0px auto;
 	text-align: center;
+}
+
+.menucontainer {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+ul .menuone {
+	display: inline;
+	float: left;
+	width: 60%;
+}
+
+ul .menutwo {
+	display: inline;
+	width: 40%
+	float: right;
 }
 
 footer a {
