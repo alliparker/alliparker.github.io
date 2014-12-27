@@ -12,15 +12,21 @@ aside {
 	padding:20px;
 	width: 40%;
 }
+
 .linepattern {
-		background: url(../images/linepattern.png) repeat-x;
-		height: 1em;
+	background: url(../images/linepattern.png) repeat-x;
+	height: 1em;
+}
+
+nav {
+	max-width: 1200px;
+	text-align: center;
 }
 
 nav li {
 	font-family: 'Julius Sans One' sans-serif;
 	display: inline;
-	margin: 0 20px;
+	margin: 0 25px 0 5px;
 	font-size: 1.10em;
 }
 
@@ -37,12 +43,28 @@ nav li a:hover {
 
 }
 
-img {
+img.logo-script {
 	margin: 0 auto;
 	display: block;
-	margin-top: 1.3em;
+	margin-top: .05em;
 }
 
+.logo {
+	vertical-align: middle;
+	padding: 0 39px 0 39px;
+	margin-top: 50px;
+}
+
+.leftnav {
+	float: left;
+	margin: 100px 0 0 0;
+}
+
+.rightnav {
+	float: right;
+	margin: 100px 0 0 0;
+	width: 489px;
+}
 /* Gradient color1 - color2 - color1 */
 
 .bottomnav {
@@ -98,6 +120,15 @@ h3 {
 	margin: 0 auto;
 }
 
+.menucontainer {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+footer a {
+	color: #fff;	
+}
+
 .afterbox {
 	height: 3em;
 	background-color: #348899;
@@ -105,27 +136,6 @@ h3 {
 	clear: both;
 	margin: 0px auto;
 	text-align: center;
-}
-
-.menucontainer {
-	margin: 0 auto;
-	max-width: 1200px;
-}
-
-ul .menuone {
-	display: inline;
-	float: left;
-	width: 60%;
-}
-
-ul .menutwo {
-	display: inline;
-	width: 40%
-	float: right;
-}
-
-footer a {
-	color: #fff;	
 }
 
 .clearfix:after {
