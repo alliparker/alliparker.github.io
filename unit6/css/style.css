@@ -18,14 +18,14 @@ aside {
 	height: 1em;
 }
 
-nav {
+.navigation.clearfix {
 	max-width: 1200px;
 	text-align: center;
 }
 
 nav li {
 	font-family: 'Julius Sans One' sans-serif;
-	display: inline;
+	display: inline-block;
 	margin: 0 25px 0 5px;
 	font-size: 1.10em;
 }
