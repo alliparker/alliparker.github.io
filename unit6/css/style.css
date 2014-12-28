@@ -2,23 +2,16 @@
 
 
 body {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Julius Sans One' sans-serif;
 	font-size: 16px;
 	background-color: #f5f5f5;
 }
 
-aside {
-	float:right;
-	padding:20px;
-	width: 40%;
+nav {
+	margin: 0 auto;
 }
 
-.linepattern {
-	background: url(../images/linepattern.png) repeat-x;
-	height: 1em;
-}
-
-.navigation.clearfix {
+.navigation {
 	max-width: 1200px;
 	text-align: center;
 }
@@ -28,6 +21,7 @@ nav li {
 	display: inline-block;
 	margin: 0 25px 0 5px;
 	font-size: 1.10em;
+	color: #353655;
 }
 
 nav a {
@@ -46,10 +40,9 @@ nav li a:hover {
 img.logo-script {
 	margin: 0 auto;
 	display: block;
-	margin-top: .05em;
 }
 
-.logo {
+.logo.clearfix {
 	vertical-align: middle;
 	padding: 0 39px 0 39px;
 	margin-top: 50px;
@@ -57,12 +50,12 @@ img.logo-script {
 
 .leftnav {
 	float: left;
-	margin: 100px 0 0 0;
+	margin: 75px 0 0 0;
 }
 
 .rightnav {
 	float: right;
-	margin: 100px 0 0 0;
+	margin: 75px 0 0 0;
 	width: 489px;
 }
 /* Gradient color1 - color2 - color1 */
@@ -74,23 +67,7 @@ img.logo-script {
 	background-image: -moz-linear-gradient(left, #DDBCC1, #AB5765, #DDBCC1);
 	background-image: -ms-linear-gradient(left, #DDBCC1, #AB5765, #DDBCC1);
 	background-image: -o-linear-gradient(left, #DDBCC1, #AB5765, #DDBCC1);
-}
-
-h1, h2 {
-	padding: 5px 5px 0 15px;
-	color: #348899;
-	font-weight:;
-	line-height: 150%;
-}
-
-h1 { font-size: 1.5em; }
-h2 { font-size: 1.25em; }
-
-h3 {
-	font-size: 1em;
-	color: #c4c4c4;
-	line-height: 100%;
-	padding: 5px 5px 0 15px;
+	margin: 25px 0 0 0;
 }
 
 .published {
@@ -104,25 +81,47 @@ h3 {
 
 .maincontent {
 	float: left;
-	width: 60%;
-	font-family: 'PT Sans' sans-serif;
+	width: 30%;
+	font-family: 'Aileron' sans-serif;
+	margin: 0 5px 0 5px;
+}
+
+.blogteaser {
+	text-align: justify;
+}
+
+aside {
+	float: left;
+	width: 30%;
+	margin: 0 0 0 25px;
+}
+
+.sidebarmenu {
+		margin: 15px 0px 15px 44px;
+}
+
+h1, h2 {
 	padding: 5px 5px 0 15px;
+	color: #353655;
+	line-height: 150%;
 }
 
-.sidebarphoto {
-	width: 100%;
-	margin: 30px 0 0 0;
+h1 { 
+	font-size: 1.5em;
+	font-family: 'Julius Sans One' sans-serif;
+ }
+
+h2 { 
+	font-size: 1.25em; 
+	color: #AB5765;
+
 }
 
-.ohhai {
-	display:block;
-	width: 112px;
-	margin: 0 auto;
-}
-
-.menucontainer {
-	margin: 0 auto;
-	max-width: 1200px;
+h3 {
+	font-size: 1em;
+	color: #c4c4c4;
+	line-height: 100%;
+	padding: 5px 5px 0 15px;
 }
 
 footer a {
@@ -131,7 +130,7 @@ footer a {
 
 .afterbox {
 	height: 3em;
-	background-color: #348899;
+	background-color: #5dadac;
 	color: #fff;
 	clear: both;
 	margin: 0px auto;
