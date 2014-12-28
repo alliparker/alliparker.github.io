@@ -14,6 +14,7 @@ nav {
 .navigation {
 	max-width: 1200px;
 	text-align: center;
+	padding: 25px 0 0 0;
 }
 
 nav li {
@@ -40,13 +41,13 @@ nav li a:hover {
 img.logo-script {
 	margin: 0 auto;
 	display: block;
+	padding: 15px 0 0 0;
 }
 
 .logo.clearfix {
 	vertical-align: middle;
 	padding: 0 39px 0 39px;
-	margin-top: 50px;
-}
+	}
 
 .leftnav {
 	float: left;
@@ -63,11 +64,11 @@ img.logo-script {
 .bottomnav {
 	border: 0;
 	height: 3px;
-	background-image: -webkit-linear-gradient(left, #DDBCC1, #AB5765, #DDBCC1);
-	background-image: -moz-linear-gradient(left, #DDBCC1, #AB5765, #DDBCC1);
-	background-image: -ms-linear-gradient(left, #DDBCC1, #AB5765, #DDBCC1);
-	background-image: -o-linear-gradient(left, #DDBCC1, #AB5765, #DDBCC1);
-	margin: 25px 0 0 0;
+	background-image: -webkit-linear-gradient(left, #ECD3CA, #e0b6a6, #ECD3CA);
+	background-image: -moz-linear-gradient(left, #ECD3CA, #e0b6a6, #ECD3CA);
+	background-image: -ms-linear-gradient(left, #ECD3CA, #e0b6a6, #ECD3CA);
+	background-image: -o-linear-gradient(left, #ECD3CA, #ECD3CA, #ECD3CA);
+	margin: 5px 0 0 0;
 }
 
 .published {
@@ -82,7 +83,7 @@ img.logo-script {
 .maincontent {
 	float: left;
 	width: 30%;
-	font-family: 'Aileron' sans-serif;
+	font-family: 'Garamond' serif;
 	margin: 0 5px 0 5px;
 }
 
@@ -97,9 +98,13 @@ aside {
 }
 
 .sidebarmenu {
-		margin: 15px 0px 15px 44px;
+		margin: 15px 50px 15px 44px;
 }
 
+.socialmediaicons {
+	margin: 0 0 91px 0;
+
+}
 h1, h2 {
 	padding: 5px 5px 0 15px;
 	color: #353655;
@@ -107,13 +112,15 @@ h1, h2 {
 }
 
 h1 { 
-	font-size: 1.5em;
+	font-size: 1.15em;
 	font-family: 'Julius Sans One' sans-serif;
+	text-align: center;
  }
 
 h2 { 
-	font-size: 1.25em; 
+	font-size: .75em; 
 	color: #AB5765;
+	margin: 0 0 5px 0;
 
 }
 
