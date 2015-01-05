@@ -2,8 +2,9 @@
 
 
 body {
-	background-color: #fdfdfd;
+	font-family: 'Julius Sans One' sans-serif;
 	font-size: 16px;
+	background-color: #fdfdfd;
 }
 
 nav {
@@ -22,7 +23,6 @@ nav li {
 	margin: 0 25px 0 5px;
 	font-size: 1.10em;
 	color: #353655;
-	font-weight: 300;
 }
 
 nav a {
@@ -72,74 +72,17 @@ img.logo-script {
 }
 
 .container {
-	margin:0 auto;
-	max-width: 1200px;
+	margin: 0 auto;
+	max-width: 790px;
+	text-align: center;
 }
 
 .maincontent {
-	float: left;
-	width: 30%;
-	font-family: 'Open Sans' sans-serif;
-	margin: 0 5px 0 5px;
-	position: relative;
-	font-weight: 300;
-}
-
-aside.container {
-	float: left;
-	width: 30%;
-	margin: 0 0 0 50px;
-}
-
-aside.socialmedia {
-	font-family: 'Open Sans' sans-serif;
-	font-weight: 700;
-	color: #e0b6a6;
-	font-size: 20px;
-	text-align: center;
-}
-
-aside p {
-	font-family: 'Open Sans' sans-serif;
-	font-weight: 300;
-	font-size: 1em;
-}
-
-.sidebarmenu {
-		margin: 15px 50px 15px 44px;
-}
-
-.maincontent h1 a { 
-	font-size: .85em;
-	font-family: 'Open Sans' sans-serif;
-	text-align: center;
-	text-decoration: none;
-	position: absolute;
-	color: rgb(255,255,255);
-	height: 100%;
-	padding: 20px 0 20px 0;
-	font-weight: 300;
-}
-
-.maincontent a:hover {
-	color: white;
-	}
-
-.blogimage {
-	position: relative;
 	width: 100%;
-
-}
-
-.smallbox {
-	width:360px;
-  height:130px;
-  background-color: #5dadac;
-  border:0;
-  opacity:0.9;
-  position: absolute;
-  top: 100px;
-  margin: auto;
+	font-family: 'Open Sans' sans-serif;
+	margin: 0 auto;
+	font-weight: 300;
+	text-align: left;
 }
 
 footer a {
@@ -155,11 +98,4 @@ footer a {
 	text-align: center;
 }
 
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: ".";
-	clear: both;
-	height: 0;
-}
+
