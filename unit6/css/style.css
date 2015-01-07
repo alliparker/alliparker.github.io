@@ -108,12 +108,7 @@ aside {
 }
 
 aside.socialmedia {
-	font-family: 'Open Sans' sans-serif;
-	font-weight: 300;
-	color: #e0b6a6;
-	font-size: 20px;
 	text-align: center;
-	text-transform: uppercase;
 	width: 360px;
 	margin: 0 auto;
 }
