@@ -71,13 +71,14 @@ img.logo-script {
 	margin: 5px 0 10px 0;
 }
 
-.container {
+.container.clearfix {
 	margin: 0 auto;
 	max-width: 1200px;
 	text-align: center;
 }
 
-.maincontent.clearfix {
+.maincontent {
+	float:left;
 	width: 60%;
 	font-family: 'Open Sans' sans-serif;
 	font-weight: 300;
@@ -85,14 +86,15 @@ img.logo-script {
 }
 
 .maincontent h1, h2 {
-	text-transform: uppercase;
 	color: #5dadac;
-	text-align: center;
+	font-weight: 400;
 }
 
 .maincontent h2 {
 	color: #353655;
 	font-size: 1em;
+	text-transform: uppercase;
+	padding: 10px 0 10px 0;
 }
 
 footer a {
@@ -112,12 +114,16 @@ aside.socialmedia {
 	font-size: 20px;
 	text-align: center;
 	text-transform: uppercase;
+	width: 360px;
+	margin: 0 auto;
 }
 
-aside p {
+.sidebartext {
+	float: left;
 	font-family: 'Open Sans' sans-serif;
 	font-weight: 300;
 	font-size: 1em;
+	text-align: left;
 }
 
 .afterbox {
@@ -129,4 +135,13 @@ aside p {
 	text-align: center;
 }
 
+.blogimagebody {
+	text-align: center;
+	padding: 15px 0 5px 0;
+}
+
+.blogimagecaption {
+	font-size: .75em;
+	font-style: italic;
+}
 

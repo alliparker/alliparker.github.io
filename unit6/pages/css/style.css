@@ -94,7 +94,7 @@ img.logo-script {
 	font-weight: 300;
 }
 
-.maincontent h1 a { 
+.maincontent h1 a, h2 { 
 	font-size: 1em;
 	font-family: 'Open Sans' sans-serif;
 	text-align: center;
@@ -104,6 +104,7 @@ img.logo-script {
 	height: 100%;
 	padding: 20px 0 20px 0;
 	font-weight: 300;
+	width: 360px;
 }
 
 	.maincontent h2 {
@@ -112,6 +113,7 @@ img.logo-script {
 	font-size: .75em;
 	margin: auto;
 	position: absolute;
+	color: #fff;
 }
 
 
