@@ -57,7 +57,6 @@ img.logo-script {
 .rightnav {
 	float: right;
 	margin: 4.5em 0 0 0;
-	width: 40%;
 }
 /* Gradient color1 - color2 - color1 */
 
@@ -73,7 +72,7 @@ img.logo-script {
 
 .container.clearfix {
 	margin: 0 auto;
-	max-width: 100%;
+	max-width: 1200px;
 	text-align: center;
 	margin: 0 .75em 0 .75em;
 }
@@ -104,21 +103,16 @@ footer a {
 
 aside {
 	float: right;
-	width: 40%;
-	margin: 0 auto;
-}
-
-.socialmedia {
-	float: right;
-	text-align: center;
-	margin: auto;
-}
-
-.sidebartext {
+	width: 30%;
 	font-family: 'Open Sans' sans-serif;
 	font-weight: 300;
 	font-size: 1em;
 	text-align: left;
+	margin: 0 0 0 1em;
+}
+
+img.heythere {
+	margin: 0 6em 0 6em;
 }
 
 .afterbox {
@@ -140,9 +134,20 @@ aside {
 	font-style: italic;
 }
 
-@media(max-width:480px) {
-	float: none;
-}
+@media(-width:480px) {
+	nav {
+		width: 100%;
+	}
 
-}
+	li {
+    width: 95%;
+    outline-width: .5em;
+    height: 2em;
+    line-height: 1.5em;
+    padding: .5em;
+  }
+ }
+
+
+
 
