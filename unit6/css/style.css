@@ -12,7 +12,7 @@ nav {
 }
 
 .navigation {
-	max-width: 1200px;
+	max-width: 100%;
 	text-align: center;
 	padding: 25px 0 0 0;
 }
@@ -20,7 +20,7 @@ nav {
 nav li {
 	font-family: 'Julius Sans One' sans-serif;
 	display: inline-block;
-	margin: 0 25px 0 5px;
+	margin: 0 1.5em 0 .3em;
 	font-size: 1.10em;
 	color: #353655;
 }
@@ -41,40 +41,41 @@ nav li a:hover {
 img.logo-script {
 	margin: 0 auto;
 	display: block;
-	padding: 15px 0 0 0;
+	padding: 1em 0 0 0;
 }
 
 .logo.clearfix {
 	vertical-align: middle;
-	padding: 0 39px 0 39px;
+	padding: 0 2.5em 0 2.5em;
 	}
 
 .leftnav {
 	float: left;
-	margin: 75px 0 0 0;
+	margin: 4.5em 0 0 0;
 }
 
 .rightnav {
 	float: right;
-	margin: 75px 0 0 0;
-	width: 489px;
+	margin: 4.5em 0 0 0;
+	width: 40%;
 }
 /* Gradient color1 - color2 - color1 */
 
 .bottomnav {
 	border: 0;
-	height: 3px;
+	height: .3em;
 	background-image: -webkit-linear-gradient(left, #ECD3CA, #e0b6a6, #ECD3CA);
 	background-image: -moz-linear-gradient(left, #ECD3CA, #e0b6a6, #ECD3CA);
 	background-image: -ms-linear-gradient(left, #ECD3CA, #e0b6a6, #ECD3CA);
 	background-image: -o-linear-gradient(left, #ECD3CA, #e0b6a6, #ECD3CA);
-	margin: 5px 0 10px 0;
+	margin: .3em 0 .6em 0;
 }
 
 .container.clearfix {
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: 100%;
 	text-align: center;
+	margin: 0 .75em 0 .75em;
 }
 
 .maincontent {
@@ -94,7 +95,7 @@ img.logo-script {
 	color: #353655;
 	font-size: 1em;
 	text-transform: uppercase;
-	padding: 10px 0 10px 0;
+	padding: .6em 0 .6em 0;
 }
 
 footer a {
@@ -103,18 +104,17 @@ footer a {
 
 aside {
 	float: right;
-	width: 30%;
-	margin: 0 0 0 0px;
-}
-
-aside.socialmedia {
-	text-align: center;
-	width: 360px;
+	width: 40%;
 	margin: 0 auto;
 }
 
+.socialmedia {
+	float: right;
+	text-align: center;
+	margin: auto;
+}
+
 .sidebartext {
-	float: left;
 	font-family: 'Open Sans' sans-serif;
 	font-weight: 300;
 	font-size: 1em;
@@ -126,17 +126,23 @@ aside.socialmedia {
 	background-color: #5dadac;
 	color: #fff;
 	clear: both;
-	margin: 0px auto;
+	margin: 0 auto;
 	text-align: center;
 }
 
 .blogimagebody {
 	text-align: center;
-	padding: 15px 0 5px 0;
+	padding: 1em 0 1em 0;
 }
 
 .blogimagecaption {
 	font-size: .75em;
 	font-style: italic;
+}
+
+@media(max-width:480px) {
+	float: none;
+}
+
 }
 
