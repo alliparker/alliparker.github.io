@@ -85,12 +85,10 @@ img.logo-script {
 }
 
 .maincontent h1, h2 {
-	color: #5dadac;
 	font-weight: 400;
 }
 
 .maincontent h2 {
-	color: #353655;
 	font-size: 1em;
 	text-transform: uppercase;
 	padding: .6em 0 .6em 0;
@@ -123,10 +121,13 @@ img.heythere {
 	text-align: center;
 }
 .blogimage a{
-	color:rgba(0,0,0,.0);
+	color:rgba(93,173,172,.0);
+}
+.blogimage img {
+	width:100%;
 }
 .blogimage:hover a {
-	color:rgba(0,0,0,1);
+	color:rgba(93,173,172,1);
 }
 .blogimagebody {
 	text-align: center;
@@ -137,7 +138,10 @@ img.heythere {
 	font-size: .75em;
 	font-style: italic;
 }
-
+.smallbox {
+	position:relative;
+	top:50%;
+}
 @media(-width:480px) {
 	nav {
 		width: 100%;
