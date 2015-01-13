@@ -120,6 +120,7 @@ img.heythere {
 	margin: 0 auto;
 	text-align: center;
 }
+.blogimage { position:relative; }
 .blogimage a{
 	color:rgba(93,173,172,.0);
 }
@@ -139,7 +140,7 @@ img.heythere {
 	font-style: italic;
 }
 .smallbox {
-	position:relative;
+	position:absolute;
 	top:50%;
 }
 @media(-width:480px) {
