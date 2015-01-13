@@ -121,14 +121,20 @@ img.heythere {
 	text-align: center;
 }
 .blogimage { position:relative; }
+.blogimage div {
+	background:rgba(93,173,172,.0);
+}
+.blogimage:hover div {
+	background:rgba(93,173,172,.1);
+}
 .blogimage a{
-	color:rgba(93,173,172,.0);
+	color:rgba(255,255,255,.0);
+}
+.blogimage:hover a {
+	color:rgba(255,255,255,1);
 }
 .blogimage img {
 	width:100%;
-}
-.blogimage:hover a {
-	color:rgba(93,173,172,1);
 }
 .blogimagebody {
 	text-align: center;
@@ -142,6 +148,9 @@ img.heythere {
 .smallbox {
 	position:absolute;
 	top:50%;
+}
+::hover {
+	transition-duration:.5s;
 }
 @media(-width:480px) {
 	nav {
