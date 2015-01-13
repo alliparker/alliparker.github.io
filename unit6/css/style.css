@@ -73,8 +73,7 @@ img.logo-script {
 .container.clearfix {
 	margin: 0 auto;
 	max-width: 1200px;
-	text-align: center;
-	margin: 0 .75em 0 .75em;
+	margin: 0 auto;
 }
 
 .maincontent {
@@ -123,7 +122,12 @@ img.heythere {
 	margin: 0 auto;
 	text-align: center;
 }
-
+.blogimage a{
+	color:rgba(0,0,0,.0);
+}
+.blogimage:hover a {
+	color:rgba(0,0,0,1);
+}
 .blogimagebody {
 	text-align: center;
 	padding: 1em 0 1em 0;
