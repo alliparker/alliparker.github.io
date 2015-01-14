@@ -2,7 +2,7 @@
 
 
 body {
-	font-family: 'Julius Sans One' sans-serif;
+	font-family: 'Open Sans' sans-serif;
 	font-size: 16px;
 	background-color: #fdfdfd;
 }
@@ -21,7 +21,7 @@ nav li {
 	font-family: 'Julius Sans One' sans-serif;
 	display: inline-block;
 	margin: 0 1.5em 0 .3em;
-	font-size: 1.10em;
+	font-size: 1em;
 	color: #353655;
 }
 
@@ -44,20 +44,11 @@ img.logo-script {
 	padding: 1em 0 0 0;
 }
 
-.logo.clearfix {
-	vertical-align: middle;
-	padding: 0 2.5em 0 2.5em;
-	}
-
-.leftnav {
-	float: left;
-	margin: 4.5em 0 0 0;
-}
-
-.rightnav {
+.navmenu {
 	float: right;
-	margin: 4.5em 0 0 0;
+	margin: 2em 0 0 0;
 }
+
 /* Gradient color1 - color2 - color1 */
 
 .bottomnav {
@@ -82,6 +73,7 @@ img.logo-script {
 	font-family: 'Open Sans' sans-serif;
 	font-weight: 300;
 	text-align: left;
+	padding: 0 0 0 1em;
 }
 
 .maincontent h1, h2 {
@@ -90,7 +82,7 @@ img.logo-script {
 
 .maincontent h2 {
 	font-size: 1em;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	padding: .6em 0 .6em 0;
 }
 
@@ -120,26 +112,28 @@ img.heythere {
 	margin: 0 auto;
 	text-align: center;
 }
-.blogimage { position:relative; }
-.blogimage div {
-	background:rgba(93,173,172,0);
-}
+.blogimage { 
+	position:relative;
+	background-color:rgba(93,173,172,0);
+
+ }
 .blogimage:hover div {
-	background:rgba(93,173,172,1);
 	transition-duration:.5s;
+	background-color:rgba(224,182,166,.5);
+	
 }
 .blogimage a{
 	color:rgba(255,255,255,0);
+
 }
 .blogimage:hover a {
 	color:rgba(255,255,255,1);
+	font-family: 'Code Bold' sans-serif;
+
 }
 .blogimage img {
 	width:100%;
-}
-.blogimagebody {
-	text-align: center;
-	padding: 1em 0 1em 0;
+	height:100%;
 }
 
 .blogimagecaption {
@@ -147,25 +141,37 @@ img.heythere {
 	font-style: italic;
 }
 .smallbox {
+	width: 100%;
+	height: 100%;
 	text-align:center;
 	position:absolute;
-	top:50%;
+	top:0;
 	left:0;
 	right:0;
 }
-@media(-width:480px) {
-	nav {
-		width: 100%;
-	}
 
-	li {
-    width: 95%;
-    outline-width: .5em;
-    height: 2em;
-    line-height: 1.5em;
-    padding: .5em;
-  }
+ .destinations {
+ 	width: 25%;
+ 	float: left;
+ 	margin: 0 1em 0 1em;
  }
+
+ .sectiontitle {
+ 	font-family: 'Code Bold' sans-serif;
+ 	text-align: center;
+ 	color: #5dadac;
+ 	font-size: 2em;
+ 
+ }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: ".";
+	clear: both;
+	height: 0;
+}
 
 
 
