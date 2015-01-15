@@ -110,7 +110,7 @@ aside img {
 }
 
 .destinationcontainer.clearfix {
-	width: 100%;
+	width: 1200px;
 	margin: 0 auto;
 }
 
@@ -118,13 +118,20 @@ aside img {
  	width: 25%;
  	float: left;
  }
+
+.destinations img {
+	max-width: 100%;
+}
 .blogimage { 
 	position: relative;
 	background-color:rgba(93,173,172,0);
-	width: 100%;
-
  }
-.blogimage:hover div {
+
+ .blogimage img {
+ 	max-width: 100%;
+ }
+
+ .blogimage:hover div {
 	transition-duration:.5s;
 	background-color:rgba(224,182,166,.5);
 	
@@ -148,7 +155,7 @@ aside img {
 	font-style: italic;
 }
 .smallbox {
-	width: 100%;
+	max-width: 100%;
 	text-align:center;
 	position:absolute;
 	top:0;
@@ -178,9 +185,9 @@ aside img {
 	height: 0;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 480px) {
 	.container.clearfix {
-		width: 600px;
+		width: 400px;
 	}
 
 	.maincontent {
@@ -194,7 +201,18 @@ aside img {
 	.maincontent h1, h2 {
 		text-align: center;
 	}
+
+	.logo.clearfix {
+	width: auto;
+	margin: 0 auto;
 }
+
+.navmenu {
+	float: none;
+	width: auto;
+}
+
+
 
 
 
