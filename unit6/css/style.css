@@ -127,9 +127,6 @@ aside img {
 	background-color:rgba(93,173,172,0);
  }
 
- .blogimage img {
- 	max-width: 100%;
- }
 
  .blogimage:hover div {
 	transition-duration:.5s;
@@ -185,7 +182,7 @@ aside img {
 	height: 0;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 480px) {
 	.container.clearfix {
 		width: 400px;
 	}
