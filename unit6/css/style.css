@@ -12,10 +12,6 @@ body {
 	text-align: center;
 }
 
-.logo {
-	display: block;
-	margin: 0 auto;
-}
 nav li {
 	font-family: 'Julius Sans One' sans-serif;
 	display: inline-block;
@@ -166,6 +162,11 @@ aside img {
 	clear: both;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.logo.clearfix {
+	text-align: center;
+	margin: auto;
 }
 
 .clearfix:after {
