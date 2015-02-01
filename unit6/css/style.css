@@ -2,7 +2,7 @@
 
 
 body {
-	font-family: 'Open Sans' sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	background-color: #fdfdfd;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 nav li {
-	font-family: 'Julius Sans One' sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
 	display: inline-block;
 	margin: 0 1.5em 1em .3em;
 	font-size: 1em;
@@ -42,7 +42,7 @@ nav li a:hover {
 .maincontent {
 	float:left;
 	width: 60%;
-	font-family: 'Open Sans' sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	text-align: left;
 
@@ -74,7 +74,7 @@ footer a {
 aside {
 	float: right;
 	width: 30%;
-	font-family: 'Open Sans' sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 1em;
 	text-align: left;
@@ -112,7 +112,7 @@ aside img {
 }
 .blogimage:hover a {
 	color:rgba(255,255,255,1);
-	font-family: 'Code Bold' sans-serif;
+	font-family: 'Code Bold', sans-serif;
 
 }
 
@@ -143,11 +143,11 @@ aside img {
 
 .smallbox h1 {
 	margin: 1em 0 1em 0;
-	font-family: 'Code Bold' sans-serif;
+	font-family: 'Code Bold', sans-serif;
 }
 
 .sectiontitle {
- 	font-family: 'Code Light' sans-serif;
+ 	font-family: 'Code Light', sans-serif;
  	text-align: center;
  	color: #5dadac;
  	font-size: 1em;
