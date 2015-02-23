@@ -2,7 +2,7 @@
 
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-size: 16px;
 	background-color: #fdfdfd;
 }
@@ -33,37 +33,37 @@ nav li a:hover {
 
 }
 
-.container.clearfix {
+.content.clearfix {
 	margin: 0 auto;
 	max-width: 1200px;
 	padding: 3em 1em 1em 1em;
 }
 
-.maincontent {
+.post {
 	float:left;
 	width: 60%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-weight: 300;
 	text-align: left;
 
 }
 
-.maincontent h1, h2 {
+.post h1, h2 {
 	font-weight: 400;
 }
 
-.maincontent h1 {
+.post h1 {
 	color: #2f3952;
 }
 
-.maincontent h2 {
+.post h2 {
 	font-size: 1em;
 	text-transform: uppercase;
 	padding: .6em 0 .6em 0;
 	color: #ce858c;
 }
 
-.maincontent p {
+.post p {
 	width: 100%;
 }
 
@@ -74,7 +74,7 @@ footer a {
 aside {
 	float: right;
 	width: 30%;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-weight: 300;
 	font-size: 1em;
 	text-align: left;
@@ -112,7 +112,7 @@ aside img {
 }
 .blogimage:hover a {
 	color:rgba(255,255,255,1);
-	font-family: 'Code Bold', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -143,11 +143,11 @@ aside img {
 
 .smallbox h1 {
 	margin: 1em 0 1em 0;
-	font-family: 'Code Bold', sans-serif;
+	font-family: 'Muli', sans-serif;
 }
 
 .sectiontitle {
- 	font-family: 'Code Light', sans-serif;
+ 	font-family: 'Julius Sans One', sans-serif;
  	text-align: center;
  	color: #5dadac;
  	font-size: 1em;
