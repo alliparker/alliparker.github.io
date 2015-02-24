@@ -104,6 +104,12 @@ aside p {
 aside img {
 	width: 100%;
 }
+
+.sidebarphoto {
+	width: 75%;
+	display: block;
+	margin: auto;
+}
 aside h2 {
 	text-align: center;
 	padding: .25em 0 .25em 0;
@@ -112,6 +118,7 @@ aside h2 {
 
 .sidebarcaption {
 	font-style: italic;
+
 }
 
 article h3 {
